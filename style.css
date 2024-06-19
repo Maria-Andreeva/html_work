@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    background: #FFFFFF;
+    font-family: "Inter", sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.header{
+    margin-bottom: 84px;
+    padding: 40.5px 0px;
+    margin-left: 373px;
+    font-family: "Inter", sans-serif;
+}
+
+.navigation{
+    margin-left: 460px;
+    margin-right: 74px;
+    margin-bottom: 10px;
+}
+
+.navigation a {
+    color: rgb(10, 10, 10);
+    font-size: 14px;
+    font-weight: 400px;
+    border: none;
+}
+
+.navigation .home {
+    color: rgb(242, 88, 34);
+    font-size: 14px;
+    font-weight: 600;
+    }
+
+/*.bigLogo {
+    padding-right: 460px;
+}
+*/
+
+.container {
+    max-width: 1174px;
+    margin: 0 auto;
+}
+.main {
+    padding: 0px 373px;
+}
+
+.mainContent{
+margin-bottom: 100px;
+}
+
+/*.mainContent__leftSide{
+
+}
+*/
+.mainContent__leftSide h1 {
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.mainContent__leftSide p {
+    color: rgb(136, 136, 136);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.mainContent__leftSide-btnList .startNow{
+    padding: 16px 10px;
+    border-radius: 56px;
+    background: rgb(242, 88, 34);
+    color: rgb(255, 255, 255);
+}
+
+.mainContent__leftSide-btnList .watchVideo {
+    color: rgb(170, 170, 170);
+}
+
+button {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    margin-bottom: 100px;
+}
