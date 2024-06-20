@@ -91,6 +91,7 @@ margin-bottom: 100px;
 
 .mainContent__leftSide-btnList .watchVideo {
     color: rgb(170, 170, 170);
+    background: none;
 }
 
 button {
