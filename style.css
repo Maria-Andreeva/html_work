@@ -22,12 +22,18 @@ img {
     padding: 40.5px 0px;
     margin-left: 373px;
     font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
 }
 
 .navigation{
     margin-left: 460px;
     margin-right: 74px;
     margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: right;
+    gap: 24px;
 }
 
 .navigation a {
@@ -58,12 +64,10 @@ img {
 
 .mainContent{
 margin-bottom: 100px;
+display: flex;
+justify-content: space-between;
 }
 
-/*.mainContent__leftSide{
-
-}
-*/
 .mainContent__leftSide h1 {
     color: rgb(0, 0, 0);
     font-size: 60px;
@@ -82,11 +86,25 @@ margin-bottom: 100px;
     margin-bottom: 32px;
 }
 
-.mainContent__leftSide-btnList .startNow{
-    padding: 16px 10px;
+.mainContent__leftSide-btnList {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.mainContent__leftSide-btnList .startNow {
+    width: 140px;
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 10px 16px 10px;
+    flex: none;
     border-radius: 56px;
     background: rgb(242, 88, 34);
     color: rgb(255, 255, 255);
+    
 }
 
 .mainContent__leftSide-btnList .watchVideo {
@@ -104,4 +122,9 @@ button {
 
 .footer {
     margin-bottom: 100px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
 }
